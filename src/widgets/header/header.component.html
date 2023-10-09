@@ -1,9 +1,19 @@
 <header class="header">
   <div class="container">
     <div class="header__container">
-      <a [routerLink]="['/']" class="logo">
-        <img src="assets/logo-light.svg" alt="">
-      </a>
+      <div class="header__navigation">
+        <a [routerLink]="['/']" class="logo">
+          <img src="assets/logo-light.svg" alt="">
+        </a>
+        <nav class="navbar">
+          <ul class="navbar__list">
+            <li class="navbar__item"><a [routerLink]="['./']">Главная</a></li>
+            <li class="navbar__item"><a [routerLink]="['./payments']">Платежи</a></li>
+            <li class="navbar__item"><a [routerLink]="['./history']">История</a></li>
+          </ul>
+        </nav>
+      </div>
+
     </div>
   </div>
 </header>

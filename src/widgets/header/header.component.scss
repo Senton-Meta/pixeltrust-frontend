@@ -5,10 +5,29 @@
     max-height: 80px;
     display: flex;
   }
+
+  &__navigation {
+    display: flex;
+    gap: var(--spacing-05);
+  }
 }
 
 .logo {
   img {
     height: 100%;
+  }
+}
+
+.navbar {
+  display: flex;
+
+  &__list {
+    display: flex;
+    gap: var(--spacing-04);
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
   }
 }
