@@ -1,9 +1,14 @@
-header {
+.header {
   background-color: white;
-  max-height: 80px;
 
+  &__container {
+    max-height: 80px;
+    display: flex;
+  }
+}
+
+.logo {
   img {
-    width:  auto;
-    height: auto;
+    height: 100%;
   }
 }
