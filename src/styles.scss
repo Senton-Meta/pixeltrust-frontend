@@ -2,3 +2,11 @@
 @import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
+
+.container {
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+  max-width: 1104px;
+  min-width: 1104px;
+}
