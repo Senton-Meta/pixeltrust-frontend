@@ -7,9 +7,27 @@
         </a>
         <nav class="navbar">
           <ul class="navbar__list">
-            <li class="navbar__item"><a [routerLink]="['./']">Главная</a></li>
-            <li class="navbar__item"><a [routerLink]="['./payments']">Платежи</a></li>
-            <li class="navbar__item"><a [routerLink]="['./history']">История</a></li>
+            <li class="navbar__item">
+              <a
+                class="navbar__link"
+                [routerLink]="['./home']"
+                routerLinkActive="active"
+              ><span>Главная</span></a>
+            </li>
+            <li class="navbar__item">
+              <a
+                class="navbar__link"
+                [routerLink]="['./payments']"
+                routerLinkActive="active"
+              >Платежи</a>
+            </li>
+            <li class="navbar__item">
+              <a
+                class="navbar__link"
+                [routerLink]="['./history']"
+                routerLinkActive="active"
+              >История</a>
+            </li>
           </ul>
         </nav>
       </div>
