@@ -4,6 +4,7 @@
   &__container {
     max-height: 80px;
     display: flex;
+    padding: var(--spacing-03);
   }
 
   &__navigation {
